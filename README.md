@@ -1,9 +1,9 @@
 # sessions
 
-[![Build Status](https://travis-ci.org/gin-contrib/sessions.svg)](https://travis-ci.org/gin-contrib/sessions)
-[![codecov](https://codecov.io/gh/gin-contrib/sessions/branch/master/graph/badge.svg)](https://codecov.io/gh/gin-contrib/sessions)
-[![Go Report Card](https://goreportcard.com/badge/github.com/gin-contrib/sessions)](https://goreportcard.com/report/github.com/gin-contrib/sessions)
-[![GoDoc](https://godoc.org/github.com/gin-contrib/sessions?status.svg)](https://godoc.org/github.com/gin-contrib/sessions)
+[![Build Status](https://travis-ci.org/zlei669/sessions.svg)](https://travis-ci.org/zlei669/sessions)
+[![codecov](https://codecov.io/gh/zlei669/sessions/branch/master/graph/badge.svg)](https://codecov.io/gh/zlei669/sessions)
+[![Go Report Card](https://goreportcard.com/badge/github.com/zlei669/sessions)](https://goreportcard.com/report/github.com/zlei669/sessions)
+[![GoDoc](https://godoc.org/github.com/zlei669/sessions?status.svg)](https://godoc.org/github.com/zlei669/sessions)
 [![Join the chat at https://gitter.im/gin-gonic/gin](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gin-gonic/gin)
 
 Gin middleware for session management with multi-backend support:
@@ -21,13 +21,13 @@ Gin middleware for session management with multi-backend support:
 Download and install it:
 
 ```bash
-$ go get github.com/gin-contrib/sessions
+$ go get github.com/zlei669/sessions
 ```
 
 Import it in your code:
 
 ```go
-import "github.com/gin-contrib/sessions"
+import "github.com/zlei669/sessions"
 ```
 
 ## Basic Examples
@@ -38,8 +38,8 @@ import "github.com/gin-contrib/sessions"
 package main
 
 import (
-	"github.com/gin-contrib/sessions"
-	"github.com/gin-contrib/sessions/cookie"
+	"github.com/zlei669/sessions"
+	"github.com/zlei669/sessions/cookie"
 	"github.com/gin-gonic/gin"
 )
 
@@ -68,8 +68,8 @@ func main() {
 package main
 
 import (
-	"github.com/gin-contrib/sessions"
-	"github.com/gin-contrib/sessions/cookie"
+	"github.com/zlei669/sessions"
+	"github.com/zlei669/sessions/cookie"
 	"github.com/gin-gonic/gin"
 )
 
@@ -111,8 +111,8 @@ func main() {
 package main
 
 import (
-	"github.com/gin-contrib/sessions"
-	"github.com/gin-contrib/sessions/cookie"
+	"github.com/zlei669/sessions"
+	"github.com/zlei669/sessions/cookie"
 	"github.com/gin-gonic/gin"
 )
 
@@ -146,8 +146,8 @@ func main() {
 package main
 
 import (
-	"github.com/gin-contrib/sessions"
-	"github.com/gin-contrib/sessions/redis"
+	"github.com/zlei669/sessions"
+	"github.com/zlei669/sessions/redis"
 	"github.com/gin-gonic/gin"
 )
 
@@ -184,8 +184,8 @@ package main
 
 import (
 	"github.com/bradfitz/gomemcache/memcache"
-	"github.com/gin-contrib/sessions"
-	"github.com/gin-contrib/sessions/memcached"
+	"github.com/zlei669/sessions"
+	"github.com/zlei669/sessions/memcached"
 	"github.com/gin-gonic/gin"
 )
 
@@ -219,8 +219,8 @@ func main() {
 package main
 
 import (
-	"github.com/gin-contrib/sessions"
-	"github.com/gin-contrib/sessions/memcached"
+	"github.com/zlei669/sessions"
+	"github.com/zlei669/sessions/memcached"
 	"github.com/gin-gonic/gin"
 	"github.com/memcachier/mc"
 )
@@ -256,8 +256,8 @@ func main() {
 package main
 
 import (
-	"github.com/gin-contrib/sessions"
-	"github.com/gin-contrib/sessions/mongo"
+	"github.com/zlei669/sessions"
+	"github.com/zlei669/sessions/mongo"
 	"github.com/gin-gonic/gin"
 	"github.com/globalsign/mgo"
 )
@@ -298,8 +298,8 @@ func main() {
 package main
 
 import (
-	"github.com/gin-contrib/sessions"
-	"github.com/gin-contrib/sessions/memstore"
+	"github.com/zlei669/sessions"
+	"github.com/zlei669/sessions/memstore"
 	"github.com/gin-gonic/gin"
 )
 
